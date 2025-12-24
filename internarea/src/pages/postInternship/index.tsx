@@ -49,7 +49,7 @@ const index = () => {
     try {
       setisloading(true);
       const res = await axios.post(
-        'http://localhost:5000/api/internship',
+        'https://internshala-clone-2qo8.onrender.com/api/internship',
         formadata
       );
       toast.success("job posted successfuly");
