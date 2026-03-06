@@ -7,7 +7,7 @@ import { Provider, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { ToastContainer } from "react-toastify";
 import { auth } from "@/firebase/firebase";
-import { login, logout } from "../feature/Tempslice";
+import { login, logout } from "../feature/Userslice";
 import Script from "next/script";
 import "../i18n";
 
