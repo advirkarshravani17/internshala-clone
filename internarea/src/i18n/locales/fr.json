@@ -1,0 +1,415 @@
+{
+  "nav": {
+    "internships": "Stages",
+    "jobs": "Emplois",
+    "community": "Communauté",
+    "resume": "Générateur de CV",
+    "subscription": "Abonnement",
+    "search": "Rechercher...",
+    "admin": "Admin",
+    "login": "Connexion",
+    "loginHistory": "Historique de connexion",
+    "logout": "Déconnexion"
+  },
+
+  "hero": {
+    "title": "Réalisez la carrière de vos rêves",
+    "subtitle": "Tendances sur InternArea 🔥"
+  },
+  "categories": {
+    "popular": "CATÉGORIES POPULAIRES",
+    "bigBrands": "Grandes Marques",
+    "workFromHome": "Travail à domicile",
+    "partTime": "Temps partiel",
+    "mba": "MBA",
+    "engineering": "Ingénierie",
+    "media": "Médias",
+    "design": "Design",
+    "dataScience": "Science des données"
+  },
+  "internships": {
+    "heading": "Derniers stages sur Intern Area",
+    "activelyHiring": "Recrutement actif",
+    "viewDetails": "Voir les détails",
+    "type": "Stage"
+  },
+  "jobs": {
+    "heading": "Derniers emplois",
+    "activelyHiring": "Recrutement actif",
+    "viewDetails": "Voir les détails",
+    "type": "Emploi"
+  },
+  "stats": {
+    "companies": "entreprises recrutent",
+    "openings": "nouvelles offres chaque jour",
+    "students": "étudiants actifs",
+    "learners": "apprenants"
+  },
+  "slider": {
+  "slide1": "Commencez votre parcours professionnel",
+  "slide2": "Apprenez des meilleurs",
+  "slide3": "Développez vos compétences",
+  "slide4": "Connectez-vous avec les meilleures entreprises"
+},
+
+  "footer": {
+    "internshipByPlaces": "Stages par lieu",
+    "internshipByStream": "Stages par domaine",
+    "jobPlaces": "Emplois par lieu",
+    "jobsByStreams": "Emplois par secteur",
+
+    "aboutUs": "À propos de nous",
+    "teamDiary": "Journal d'équipe",
+    "terms": "Conditions générales",
+    "sitemap": "Plan du site",
+
+    "getAndroidApp": "Télécharger l'application Android",
+    "copyright": "© Copyright 2025. Tous droits réservés.",
+
+    "places": ["New York", "Los Angeles", "Chicago", "San Francisco", "Miami", "Seattle"],
+    "company": ["À propos", "Carrières", "Presse", "Actualités", "Kit média", "Contact"],
+    "resources": ["Blog", "Newsletter", "Événements", "Centre d'aide", "Tutoriels", "Support"],
+    "industries": ["Startups", "Entreprise", "Gouvernement", "SaaS", "Marketplaces", "E-commerce"],
+
+    "simple": ["Startups", "Entreprise"],
+    "simpleOne": ["Startups"]
+  },
+
+  "adminLogin": {
+    "title": "Connexion Admin",
+    "subtitle": "Accédez au tableau de bord admin pour gérer les stages et candidatures",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "usernamePlaceholder": "Entrez votre nom d'utilisateur",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "signIn": "Se connecter",
+    "signingIn": "Connexion en cours...",
+    "fillDetails": "Veuillez remplir tous les détails",
+    "success": "Connexion réussie",
+    "invalid": "Identifiants invalides"
+  },
+
+  "userLogin": {
+  "welcome": "Bon retour 👋",
+  "subtitle": "Connectez-vous pour continuer",
+  "email": "Email",
+  "password": "Mot de passe",
+  "emailPlaceholder": "you@example.com",
+  "passwordPlaceholder": "••••••••",
+  "forgotPassword": "Mot de passe oublié ?",
+  "login": "Se connecter",
+  "loggingIn": "Connexion en cours...",
+  "or": "OU",
+  "continueGoogle": "Continuer avec Google",
+  "noAccount": "Vous n'avez pas de compte ?",
+  "signup": "S'inscrire",
+  "loginSuccess": "Connexion réussie",
+  "loginFailed": "Échec de la connexion",
+  "googleSuccess": "Connexion Google réussie",
+  "googleFailed": "Échec de la connexion Google",
+  "otpSent": "OTP envoyé à votre email",
+  "mobileTimeRestriction": "Accès mobile autorisé uniquement entre 10h et 13h",
+  "loginBlocked": "Connexion bloquée"
+},
+
+"signup": {
+  "title": "S'inscrire",
+  "email": "Email",
+  "password": "Mot de passe",
+  "createAccount": "Créer un compte",
+  "creating": "Création...",
+  "or": "OU",
+  "continueGoogle": "Continuer avec Google",
+  "haveAccount": "Vous avez déjà un compte ?",
+  "login": "Connexion",
+  "success": "Compte créé avec succès",
+  "googleSuccess": "Inscription Google réussie",
+  "googleError": "Échec de l'inscription Google"
+},
+
+  "otp": {
+    "title": "Vérifier le OTP",
+    "placeholder": "Entrez le OTP",
+    "verifyButton": "Vérifier le OTP",
+    "verifying": "Vérification...",
+    "success": "OTP vérifié avec succès",
+    "invalid": "OTP invalide",
+    "sessionExpired": "Session expirée. Veuillez vous reconnecter."
+  },
+  
+  "toast": {
+    "otpSent": "OTP envoyé à votre email",
+    "loginSuccess": "Connexion réussie",
+    "googleLoginSuccess": "Connecté avec Google",
+    "signupSuccess": "Compte créé avec succès",
+    "googleSignupSuccess": "Inscription via Google réussie",
+    "invalidCredentials": "Identifiants invalides",
+    "loginFailed": "Échec de la connexion",
+    "googleLoginFailed": "Échec de la connexion Google",
+    "otpSuccess": "OTP vérifié avec succès",
+    "otpInvalid": "OTP invalide",
+    "sessionExpired": "Session expirée. Veuillez vous reconnecter.",
+    "mobileRestricted": "Accès mobile autorisé uniquement entre 10h et 13h"
+  },
+
+  "subscription": {
+    "title": "Améliorez votre carrière 🚀",
+    "subtitle": "Choisissez le plan idéal pour maximiser vos opportunités.",
+    "limitReached": "Vous avez atteint votre limite de candidatures.",
+    "mostPopular": "Le plus populaire",
+    "perMonth": "/mois",
+    "currentPlan": "Plan actuel",
+    "upgrade": "Mettre à niveau",
+    "activeUntil": "Actif jusqu’au {{date}} • {{days}} jours restants",
+
+    "features": {
+      "free1": "Postuler à 1 stage",
+      "free2": "Accès profil basique",
+
+      "bronze1": "Postuler à 3 stages",
+      "bronze2": "Visibilité prioritaire",
+      "bronze3": "Support email",
+
+      "silver1": "Postuler à 5 stages",
+      "silver2": "Visibilité premium",
+      "silver3": "Accès anticipé",
+      "silver4": "Support prioritaire",
+
+      "gold1": "Candidatures illimitées",
+      "gold2": "Classement supérieur",
+      "gold3": "Support dédié",
+      "gold4": "Opportunités exclusives"
+    },
+
+    "toast": {
+      "freePlan": "Vous êtes déjà sur le plan gratuit.",
+      "userNotLoaded": "Utilisateur non chargé.",
+      "activePlan": "Vous avez déjà un plan actif.",
+      "creatingOrder": "Création du paiement...",
+      "gatewayFail": "Erreur du paiement.",
+      "verifying": "Vérification du paiement...",
+      "success": "🎉 Abonnement activé !",
+      "verifyFail": "Échec de vérification.",
+      "cancelled": "Paiement annulé.",
+      "genericError": "Une erreur est survenue."
+    }
+  },
+
+  "resume": {
+    "editTitle": "Modifier votre CV",
+    "createTitle": "Créer votre CV",
+    "editSubtitle": "Vous pouvez mettre à jour votre CV à tout moment",
+    "createSubtitle": "Vérification OTP et paiement de ₹50 requis",
+
+    "fullName": "Nom complet",
+    "email": "Email",
+    "phone": "Téléphone",
+    "qualification": "Qualification",
+    "professional": "Détails professionnels",
+    "skills": "Compétences",
+    "about": "À propos de vous",
+    "uploadPhoto": "Télécharger la photo",
+
+    "generateOtp": "Générer le CV (OTP)",
+    "enterOtp": "Entrer OTP",
+    "verifyOtp": "Vérifier OTP",
+    "payCreate": "Payer ₹50 et créer le CV",
+    "saveChanges": "Enregistrer les modifications",
+
+    "otpSent": "OTP envoyé à votre email 📧",
+    "otpFailed": "Échec de l'envoi OTP",
+    "otpVerifyFailed": "Échec de vérification OTP",
+    "emailVerified": "Email vérifié avec succès ✅",
+
+    "userNotLogged": "Utilisateur non connecté",
+    "resumeCreated": "CV créé avec succès 🎉",
+    "resumeUpdated": "CV mis à jour avec succès ✅",
+
+    "paymentInitFailed": "Échec de l'initialisation du paiement",
+    "paymentSuccess": "Paiement réussi ✅",
+    "paymentVerifyFailed": "Échec de vérification du paiement"
+  },
+  "resumeView": {
+  "loading": "Chargement du CV...",
+  "loadFailed": "Échec du chargement du CV",
+  "qualification": "Qualification",
+  "skills": "Compétences",
+  "about": "À propos",
+  "professional": "Détails professionnels",
+  "saveProfile": "Enregistrer dans le profil",
+  "autoAttach": "Ajouter automatiquement aux candidatures",
+  "savedProfile": "CV enregistré dans le profil ✅",
+  "saveFailed": "Échec de l'enregistrement du CV",
+  "autoAttachSuccess": "Le CV sera ajouté automatiquement 🚀",
+  "autoAttachFailed": "Impossible d'activer l'ajout automatique"
+},
+
+  "admin": {
+    "dashboard": "Tableau de bord Admin",
+    "subtitle": "Gérez les emplois, stages et candidatures",
+
+    "stats": {
+      "totalApplications": "Candidatures Totales",
+      "activeJobs": "Emplois Actifs",
+      "activeInternships": "Stages Actifs",
+      "conversionRate": "Taux de Conversion"
+    },
+
+    "menu": {
+      "viewApplications": "Voir les candidatures",
+      "viewApplicationsDesc": "Gérer toutes les candidatures",
+
+      "postJob": "Publier un emploi",
+      "postJobDesc": "Créer et publier des opportunités",
+
+      "postInternship": "Publier un stage",
+      "postInternshipDesc": "Gérer les postes de stage",
+
+      "manageUsers": "Gérer les utilisateurs",
+      "manageUsersDesc": "Voir et gérer les comptes",
+
+      "analytics": "Analytique",
+      "analyticsDesc": "Voir les rapports et statistiques",
+
+      "settings": "Paramètres",
+      "settingsDesc": "Configurer le système"
+    }
+  },
+  "internshipPage": {
+  "filters": "Filtres",
+  "clearAll": "Tout effacer",
+  "category": "Catégorie",
+  "location": "Lieu",
+  "categoryPlaceholder": "ex. Stagiaire Marketing",
+  "locationPlaceholder": "ex. Mumbai",
+  "workFromHome": "Télétravail",
+  "partTime": "Temps partiel",
+  "stipend": "Indemnité mensuelle (₹)",
+  "showFilters": "Afficher les filtres",
+  "results": "Stages trouvés",
+  "activelyHiring": "Recrutement actif",
+  "startDate": "Date de début",
+  "posted": "Publié récemment",
+  "viewDetails": "Voir les détails",
+  "type": "Stage"
+},
+"jobPage": {
+  "filters": "Filtres",
+  "clearAll": "Tout effacer",
+  "category": "Catégorie",
+  "location": "Lieu",
+  "experience": "Expérience",
+  "salary": "Salaire annuel (₹)",
+  "categoryPlaceholder": "ex: Marketing",
+  "locationPlaceholder": "ex: Mumbai",
+  "experiencePlaceholder": "ex: 2 ans",
+  "workFromHome": "Télétravail",
+  "partTime": "Temps partiel",
+  "jobsFound": "Emplois trouvés",
+  "activelyHiring": "Recrutement actif",
+  "postedRecently": "Publié récemment",
+  "viewDetails": "Voir les détails",
+  "job": "Emploi"
+},
+
+  "detailedInternship": {
+    "activelyHiring": "Recrutement actif",
+    "postedOn": "Publié le",
+    "aboutCompany": "À propos de {{company}}",
+    "visitCompanyWebsite": "Visiter le site de l'entreprise",
+    "aboutInternship": "À propos du stage",
+    "whoCanApply": "Qui peut postuler",
+    "perks": "Avantages",
+    "additionalInformation": "Informations supplémentaires",
+    "numberOfOpenings": "Nombre de postes",
+    "applyNow": "Postuler maintenant",
+
+    "applyModal": {
+      "applyTo": "Postuler chez {{company}}",
+      "yourResume": "Votre CV",
+      "resumeWillBeSubmitted": "Votre CV actuel sera envoyé avec la candidature",
+      "coverLetter": "Lettre de motivation",
+      "whyShouldSelect": "Pourquoi devriez-vous être sélectionné ?",
+      "writeCoverLetter": "Écrivez votre lettre ici...",
+      "yourAvailability": "Votre disponibilité",
+      "availableImmediately": "Oui, disponible immédiatement",
+      "onNoticePeriod": "Non, je suis en période de préavis",
+      "willServeNotice": "Non, je dois effectuer un préavis",
+      "other": "Autre",
+      "submitApplication": "Soumettre la candidature",
+      "signupToApply": "Inscrivez-vous pour postuler"
+    },
+
+    "toast": {
+      "pleaseWriteCoverLetter": "Veuillez écrire une lettre",
+      "pleaseSelectAvailability": "Veuillez sélectionner votre disponibilité",
+      "applicationSubmitted": "Candidature envoyée avec succès",
+      "applicationFailed": "Échec de l'envoi de la candidature"
+    }
+  },
+  
+  "detailedJob": {
+  "activelyHiring": "Recrutement actif",
+  "postedOn": "Publié le",
+  "aboutCompany": "À propos de {{company}}",
+  "visitCompanyWebsite": "Visiter le site de l'entreprise",
+  "aboutJob": "À propos du poste",
+  "whoCanApply": "Qui peut postuler",
+  "perks": "Avantages",
+  "additionalInformation": "Informations supplémentaires",
+  "applyNow": "Postuler maintenant",
+
+  "applyModal": {
+    "applyTo": "Postuler chez {{company}}",
+    "yourResume": "Votre CV",
+    "resumeWillBeSubmitted": "Votre CV actuel sera soumis avec la candidature",
+    "coverLetter": "Lettre de motivation",
+    "whyShouldSelect": "Pourquoi devrions-nous vous sélectionner pour ce poste ?",
+    "writeCoverLetter": "Écrivez votre lettre de motivation ici...",
+    "yourAvailability": "Votre disponibilité",
+    "availableImmediately": "Oui, je peux rejoindre immédiatement",
+    "onNoticePeriod": "Non, je suis actuellement en préavis",
+    "willServeNotice": "Non, je devrai effectuer un préavis",
+    "other": "Autre",
+    "submitApplication": "Soumettre la candidature",
+    "signupToApply": "Inscrivez-vous pour postuler"
+  },
+
+  "toast": {
+    "pleaseWriteCoverLetter": "Veuillez écrire une lettre de motivation",
+    "pleaseSelectAvailability": "Veuillez sélectionner votre disponibilité",
+    "applicationSubmitted": "Candidature soumise avec succès",
+    "applicationFailed": "Échec de la soumission de la candidature"
+  }
+},
+
+  "loginHistory": {
+    "title": "🔒 Historique de connexion",
+    "loading": "Chargement...",
+    "browser": "Navigateur",
+    "os": "Système d'exploitation",
+    "device": "Appareil",
+    "ipAddress": "Adresse IP",
+    "loginTime": "Heure de connexion",
+    "noHistory": "Aucun historique de connexion trouvé"
+  },
+  
+  "forgotPassword": {
+    "title": "Mot de passe oublié",
+    "subtitle": "Entrez votre e-mail enregistré",
+    "emailPlaceholder": "you@example.com",
+    "sendLink": "Envoyer le lien de réinitialisation",
+    "rememberPassword": "Vous vous souvenez du mot de passe ?",
+    "login": "Connexion",
+    "limitWarning": "Vous pouvez réinitialiser le mot de passe une seule fois toutes les 24 heures",
+    "resetEmailSent": "E-mail de réinitialisation envoyé",
+    "suggestedPassword": "Mot de passe suggéré :"
+  },
+
+  "profile": {
+  "activeApplications": "Candidatures actives",
+  "acceptedApplications": "Candidatures acceptées",
+  "viewApplications": "Voir les candidatures",
+  "viewResume": "Voir le CV"
+}
+}

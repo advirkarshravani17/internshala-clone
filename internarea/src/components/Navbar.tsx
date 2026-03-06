@@ -1,149 +1,169 @@
-import React, { useEffect } from "react";
-import { useState, useRef } from "react";
-import logo from "../assets/logo.png";
-import { ChevronDown, ChevronUp, Search } from "lucide-react";
+import axios from "axios";
+import { useRouter } from "next/router";
+import React from "react";
 import Link from "next/link";
-import { auth, provider } from "../firebase/firebase";
-import { signInWithPopup, signOut } from "firebase/auth";
-import { toast } from "react-toastify";
+import { Search, LogOut } from "lucide-react";
 import { useSelector } from "react-redux";
-import { selectuser } from "@/Feature/Userslice";
-interface User {
-  name: string;
-  email: string;
-  photo: string;
-}
+import { selectuser } from "@/feature/Userslice";
+import { signOut } from "firebase/auth";
+import { auth } from "@/firebase/firebase";
+import { toast } from "react-toastify";
+import { useTranslation } from "react-i18next";
+import i18n from "@/i18n";
 
 const Navbar = () => {
-  
-  const user = useSelector(selectuser)
-  const handlelogin = async () => {
+  const user = useSelector(selectuser);
+  const { t } = useTranslation();
+const router = useRouter();
+  const handleLogout = async () => {
     try {
-       await signInWithPopup(auth, provider);
-     
-      toast.success("logged in sucessfully")
+      await signOut(auth);
+      toast.success("Logged out successfully");
     } catch (error) {
-      console.error(error);
-      toast.error("login failed");
+      toast.error("Logout failed");
     }
-
-    // setuser({
-    //   name: "Shravani",
-    //   email: "xyz@gmail.com",
-    //   photo:
-    //     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=64&h=64&fit=crop&crop=faces",
-    // });
   };
-
-  const handlelogout = () => {
-    signOut(auth)
-    
-  };
-  // useEffect(() => {
-  //   const handleclickoutside = (event: any) => {
-  //     if (dropdownref.current && !dropdownref.current.contains(event.target)) {
-  //       setisprofiledropdownopen(false);
-  //     }
-  //   };
-  //   document.addEventListener("mousedown", handleclickoutside);
-  //   return () => document.removeEventListener("mousedown", handleclickoutside);
-  // }, []);
 
   return (
-    <div className="relative">
-      <nav className="bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16 items-center">
-            {/* Logo */}
-            <div className="flex-shrink-0">
-              <a href="/" className="text-xl font-bold text-blue-600">
-                <img src={"/logo.png"} alt="Logo" className="h-16 w-auto" />
-              </a>
+    <nav className="bg-white shadow-md sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex justify-between h-16 items-center">
+          
+          {/* Logo */}
+          <Link href="/">
+            <img src="/logo.png" className="h-14 cursor-pointer" />
+          </Link>
+
+          {/* Menu */}
+          <div className="hidden md:flex items-center space-x-8 font-medium">
+            
+            <Link href="/internship" className="hover:text-blue-600">
+              {t("nav.internships")}
+            </Link>
+
+            <Link href="/job" className="hover:text-blue-600">
+              {t("nav.jobs")}
+            </Link>
+
+            {/* Community */}
+            <Link
+              href={user ? "/community/feed" : "/userlogin"}
+              className="hover:text-blue-600"
+            >
+              {t("nav.community")}
+            </Link>
+
+            {/* Resume Builder */}
+            <Link
+              href={user ? "/resume" : "/userlogin"}
+              className="hover:text-blue-600"
+            >
+              {t("nav.resume")}
+            </Link>
+
+            {/* Subscription */}
+            <Link
+              href={user ? "/subscription" : "/userlogin"}
+              className="hover:text-blue-600"
+            >
+              {t("nav.subscription")}
+            </Link>
+
+            {/* Search Bar */}
+            <div className="flex items-center bg-gray-100 rounded-full px-4 py-2">
+              <Search size={16} />
+              <input
+                className="ml-2 bg-transparent focus:outline-none text-sm"
+                placeholder={t("nav.search")}
+              />
             </div>
-            {/* Navigation Links */}
-            <div className="hidden md:flex items-center space-x-8">
-              <button className="flex items-center space-x-1 text-gray-700 hover:text-blue-600">
-                <Link href={"/internship"}>
-                  <span>Internships</span>
+
+            {/* ✅ Temporary Language Switch (Testing) */}
+            <select
+  onChange={async (e) => {
+    const selectedLang = e.target.value;
+
+    if (selectedLang !== "fr") {
+      i18n.changeLanguage(selectedLang);
+      return;
+    }
+
+    if (!user?.email) {
+      toast.error("Login required");
+      return;
+    }
+
+    try {
+      const res = await axios.post(
+        "https://internshala-clone-2qo8.onrender.com/api/users/send-french-otp",
+        { email: user.email }
+      );
+
+      sessionStorage.setItem("pending_french_email", user.email);
+toast.success("OTP sent to your email");
+router.push("/otp?type=french");
+    } catch (err: any) {
+      toast.error(err.response?.data?.error);
+    }
+  }}
+              className="border rounded px-0 py-1 text-sm"
+            >
+              <option value="en">English</option>
+              <option value="hi">Hindi</option>
+              <option value="fr">French</option>
+              <option value="es">Spanish</option>
+              <option value="pt">Portugues</option>
+              <option value="zh">Chinese</option>
+            </select>
+          </div>
+
+          {/* Right Section */}
+          <div className="flex items-center space-x-4">
+            {!user ? (
+              <>
+                <Link href="/adminlogin" className="text-gray-600">
+                  {t("nav.admin")}
                 </Link>
-              </button>
-              <button className="flex items-center space-x-1 text-gray-700 hover:text-blue-600">
-                <Link href={"/job"}>
-                  <span>Jobs</span>
+
+                <Link href="/userlogin">
+                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                    {t("nav.login")}
+                  </button>
                 </Link>
-              </button>
-              <div className="flex items-center bg-gray-100 rounded-full px-4 py-2">
-                <Search size={16} className="text-gray-400" />
-                <input
-                  type="text"
-                  placeholder="Search opportunities..."
-                  className="ml-2 bg-transparent focus:outline-none text-sm w-48"
-                />
-              </div>
-            </div>
-            {/* Auth Buttons */}
-            <div className="flex items-center space-x-4">
-              {user ? (
-                <div className="relative flex">
-                  <button className="flex items-center space-x-2">
-                    <Link href={"/profile"}>
-                      <img
-                        src={user.photo}
-                        alt=" "
-                        className="w-8 h-8 rounded-full"
-                      />
-                    </Link>
-                  </button>
-                  <button
-                    className="flex items-center w-full px-4 py-2  text-gray-700  hover:bg-gray-200 rounded-lg"
-                    onClick={handlelogout}
-                  >
-                    Logout
-                  </button>
-                </div>
-              ) : (
-                <>
-                  <button
-                    onClick={handlelogin}
-                    className="w-full bg-white border border-gray-300 rounded-lg px-4 py-2 flex items-center justify-center space-x-2 hover:bg-gray-50 "
-                  >
-                    <svg className="w-5 h-5" viewBox="0 0 24 24">
-                      <path
-                        fill="#4285F4"
-                        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-                      />
-                      <path
-                        fill="#34A853"
-                        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      />
-                      <path
-                        fill="#FBBC05"
-                        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                      />
-                      <path
-                        fill="#EA4335"
-                        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                      />
-                    </svg>
-                    <span className="text-gray-700">Continue with google</span>
-                  </button>
-                  {/*<button className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700">
-                    {" "}
-                    <Link href={"/register"}>Register</Link>
-                  </button>*/}
-                  <a
-                    href="/adminlogin"
-                    className="text-gray-600 hover:text-gray-800"
-                  >
-                    Admin
-                  </a>
-                </>
-              )}
-            </div>
-          </div>{" "}
+              </>
+            ) : (
+              <>
+                {/* Login History */}
+                <Link
+                  href="/login-history"
+                  className="text-sm font-medium text-gray-600 hover:text-blue-600"
+                >
+                  {t("nav.loginHistory")}
+                </Link>
+
+                {/* Profile */}
+                <Link href="/profile">
+                  <img
+                    src={user.photo || "/avatar.jpg"}
+                    className="w-9 h-9 rounded-full cursor-pointer border"
+                  />
+                </Link>
+
+                {/* Logout */}
+                <button
+                  onClick={handleLogout}
+                  className="flex items-center gap-1 text-red-600 hover:text-red-700"
+                >
+                  <LogOut size={18} />
+                  {t("nav.logout")}
+                </button>
+              </>
+            )}
+          </div>
+
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 

@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import axios from "axios";
-import { selectuser } from "@/Feature/Userslice";
+import { selectuser } from "@/feature/Userslice";
 import { useSelector } from "react-redux";
 const Applications = [
   {

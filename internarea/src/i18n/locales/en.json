@@ -1,0 +1,425 @@
+{
+  "nav": {
+    "internships": "Internships",
+    "jobs": "Jobs",
+    "community": "Community",
+    "resume": "Resume Generator",
+    "subscription": "Subscription",
+    "search": "Search...",
+    "admin": "Admin",
+    "login": "Login",
+    "loginHistory": "Login History",
+    "logout": "Logout"
+  },
+  
+  "hero": {
+    "title": "Make your dream career a reality",
+    "subtitle": "Trending on InternArea 🔥"
+  },
+  "categories": {
+    "popular": "POPULAR CATEGORIES",
+    "bigBrands": "Big Brands",
+    "workFromHome": "Work From Home",
+    "partTime": "Part-time",
+    "mba": "MBA",
+    "engineering": "Engineering",
+    "media": "Media",
+    "design": "Design",
+    "dataScience": "Data Science"
+  },
+  "internships": {
+    "heading": "Latest internships on Intern Area",
+    "activelyHiring": "Actively Hiring",
+    "viewDetails": "View details",
+    "type": "Internship"
+  },
+  "jobs": {
+    "heading": "Latest Jobs",
+    "activelyHiring": "Actively Hiring",
+    "viewDetails": "View details",
+    "type": "Jobs"
+  },
+  "stats": {
+    "companies": "companies hiring",
+    "openings": "new openings everyday",
+    "students": "active students",
+    "learners": "learners"
+  },
+  "slider": {
+  "slide1": "Start Your Career Journey",
+  "slide2": "Learn From The Best",
+  "slide3": "Grow Your Skills",
+  "slide4": "Connect With Top Companies"
+},
+
+  "footer": {
+    "internshipByPlaces": "Internship by places",
+    "internshipByStream": "Internship by stream",
+    "jobPlaces": "Job Places",
+    "jobsByStreams": "Jobs by streams",
+
+    "aboutUs": "About us",
+    "teamDiary": "Team diary",
+    "terms": "Terms and conditions",
+    "sitemap": "Sitemap",
+
+    "getAndroidApp": "Get Android App",
+    "copyright": "© Copyright 2025. All Rights Reserved.",
+
+    "places": ["New York", "Los Angeles", "Chicago", "San Francisco", "Miami", "Seattle"],
+    "company": ["About us", "Careers", "Press", "News", "Media kit", "Contact"],
+    "resources": ["Blog", "Newsletter", "Events", "Help center", "Tutorials", "Supports"],
+    "industries": ["Startups", "Enterprise", "Government", "SaaS", "Marketplaces", "Ecommerce"],
+
+    "simple": ["Startups", "Enterprise"],
+    "simpleOne": ["Startups"]
+  },
+  
+  "adminLogin": {
+    "title": "Admin Login",
+    "subtitle": "Access the admin dashboard to manage internships and applications",
+    "username": "Username",
+    "password": "Password",
+    "usernamePlaceholder": "Enter your username",
+    "passwordPlaceholder": "Enter your password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in...",
+    "fillDetails": "Please fill in all details",
+    "success": "Logged in successfully",
+    "invalid": "Invalid credentials"
+  },
+
+  "userLogin": {
+  "welcome": "Welcome Back 👋",
+  "subtitle": "Login to continue",
+  "email": "Email",
+  "password": "Password",
+  "emailPlaceholder": "you@example.com",
+  "passwordPlaceholder": "••••••••",
+  "forgotPassword": "Forgot password?",
+  "login": "Login",
+  "loggingIn": "Logging in...",
+  "or": "OR",
+  "continueGoogle": "Continue with Google",
+  "noAccount": "Don’t have an account?",
+  "signup": "Sign up",
+  "loginSuccess": "Logged in successfully",
+  "loginFailed": "Login failed",
+  "googleSuccess": "Logged in with Google",
+  "googleFailed": "Google login failed",
+  "otpSent": "OTP sent to your email",
+  "mobileTimeRestriction": "Mobile access allowed only between 10 AM and 1 PM",
+  "loginBlocked": "Login blocked"
+},
+
+"signup": {
+  "title": "Sign Up",
+  "email": "Email",
+  "password": "Password",
+  "createAccount": "Create Account",
+  "creating": "Creating...",
+  "or": "OR",
+  "continueGoogle": "Continue with Google",
+  "haveAccount": "Already have an account?",
+  "login": "Login",
+  "success": "Account created successfully",
+  "googleSuccess": "Signed up with Google",
+  "googleError": "Google signup failed"
+},
+
+  "otp": {
+    "title": "Verify OTP",
+    "placeholder": "Enter OTP",
+    "verifyButton": "Verify OTP",
+    "verifying": "Verifying...",
+    "success": "OTP verified successfully",
+    "invalid": "Invalid OTP",
+    "sessionExpired": "Session expired. Please login again."
+  },
+  
+  "toast": {
+    "otpSent": "OTP sent to your email",
+    "loginSuccess": "Logged in successfully",
+    "googleLoginSuccess": "Logged in with Google",
+    "signupSuccess": "Account created successfully",
+    "googleSignupSuccess": "Signed up with Google",
+    "invalidCredentials": "Invalid credentials",
+    "loginFailed": "Login failed",
+    "googleLoginFailed": "Google login failed",
+    "otpSuccess": "OTP verified successfully",
+    "otpInvalid": "Invalid OTP",
+    "sessionExpired": "Session expired. Please login again.",
+    "mobileRestricted": "Mobile access allowed only between 10 AM and 1 PM"
+  },
+  
+  "subscription": {
+    "title": "Upgrade Your Career🚀",
+    "subtitle": "Choose the perfect plan to maximize your internship / job opportunities and stand out from the competition.",
+    "limitReached": "You've reached your applying limit. Please wait for the month to end to upgrade again.",
+    "mostPopular": "Most Popular",
+    "perMonth": "/month",
+    "currentPlan": "Current Plan",
+    "upgrade": "Upgrade Now",
+    "activeUntil": "Active until {{date}} • {{days}} days left",
+
+    "features": {
+      "free1": "Apply to 1 internship",
+      "free2": "Basic profile access",
+
+      "bronze1": "Apply to 3 internships",
+      "bronze2": "Priority profile visibility",
+      "bronze3": "Email support",
+
+      "silver1": "Apply to 5 internships",
+      "silver2": "Premium visibility",
+      "silver3": "Early access opportunities",
+      "silver4": "Priority support",
+
+      "gold1": "Unlimited internship applications",
+      "gold2": "Top profile ranking",
+      "gold3": "Dedicated support",
+      "gold4": "Exclusive opportunities"
+    },
+
+    "toast": {
+      "freePlan": "You are already on the Free plan.",
+      "userNotLoaded": "User not loaded. Please login again.",
+      "activePlan": "You already have an active monthly plan.",
+      "creatingOrder": "Creating payment order...",
+      "gatewayFail": "Payment gateway failed to load.",
+      "verifying": "Verifying payment...",
+      "success": "🎉 Subscription Activated Successfully!",
+      "verifyFail": "Payment verification failed.",
+      "cancelled": "Payment cancelled.",
+      "genericError": "Something went wrong. Please try again."
+    }
+  },
+
+  "resume": {
+    "editTitle": "Edit Your Resume",
+    "createTitle": "Create Your Resume",
+    "editSubtitle": "You can update your resume anytime",
+    "createSubtitle": "OTP verification & ₹50 payment required",
+
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "qualification": "Qualification",
+    "professional": "Professional details",
+    "skills": "Skills",
+    "about": "About you",
+    "uploadPhoto": "Upload Photo",
+
+    "generateOtp": "Generate Resume (OTP)",
+    "enterOtp": "Enter OTP",
+    "verifyOtp": "Verify OTP",
+    "payCreate": "Pay ₹50 & Create Resume",
+    "saveChanges": "Save Changes",
+
+    "otpSent": "OTP sent to your email 📧",
+    "otpFailed": "Failed to send OTP",
+    "otpVerifyFailed": "OTP verification failed",
+    "emailVerified": "Email verified successfully ✅",
+
+    "userNotLogged": "User not logged in",
+    "resumeCreated": "Resume created successfully 🎉",
+    "resumeUpdated": "Resume updated successfully ✅",
+
+    "paymentInitFailed": "Payment initiation failed",
+    "paymentSuccess": "Payment successful ✅",
+    "paymentVerifyFailed": "Payment verification failed"
+  },
+
+  "resumeView": {
+  "loading": "Loading resume...",
+  "loadFailed": "Failed to load resume",
+  "qualification": "Qualification",
+  "skills": "Skills",
+  "about": "About",
+  "professional": "Professional details",
+  "saveProfile": "Save to Profile",
+  "autoAttach": "Auto-add to Applications",
+  "savedProfile": "Resume saved to profile ✅",
+  "saveFailed": "Failed to save resume",
+  "autoAttachSuccess": "Resume will be auto-added to applications 🚀",
+  "autoAttachFailed": "Failed to enable auto-attach"
+},
+
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "subtitle": "Manage your jobs, internships, and applications",
+
+    "stats": {
+      "totalApplications": "Total Applications",
+      "activeJobs": "Active Jobs",
+      "activeInternships": "Active Internships",
+      "conversionRate": "Conversion Rate"
+    },
+
+    "menu": {
+      "viewApplications": "View Applications",
+      "viewApplicationsDesc": "View and manage all applications from candidates",
+
+      "postJob": "Post Job",
+      "postJobDesc": "Create and publish new job opportunities",
+
+      "postInternship": "Post Internship",
+      "postInternshipDesc": "Create and manage internship positions",
+
+      "manageUsers": "Manage Users",
+      "manageUsersDesc": "View and manage user accounts",
+
+      "analytics": "Analytics",
+      "analyticsDesc": "View detailed reports and statistics",
+
+      "settings": "Settings",
+      "settingsDesc": "Configure system preferences"
+    }
+  },
+  "internshipPage": {
+  "filters": "Filters",
+  "clearAll": "Clear all",
+  "category": "Category",
+  "location": "Location",
+  "categoryPlaceholder": "e.g. Marketing Intern",
+  "locationPlaceholder": "e.g. Mumbai",
+  "workFromHome": "Work from home",
+  "partTime": "Part-time",
+  "stipend": "Monthly Stipend (₹)",
+  "showFilters": "Show Filters",
+  "results": "Internships found",
+  "activelyHiring": "Actively Hiring",
+  "startDate": "Start Date",
+  "posted": "Posted recently",
+  "viewDetails": "View Details",
+  "type": "Internship"
+},
+"jobPage": {
+  "filters": "Filters",
+  "clearAll": "Clear all",
+  "category": "Category",
+  "location": "Location",
+  "experience": "Experience",
+  "salary": "Annual Salary (₹)",
+  "categoryPlaceholder": "e.g. Marketing",
+  "locationPlaceholder": "e.g. Mumbai",
+  "experiencePlaceholder": "e.g. 2 Years",
+  "workFromHome": "Work from home",
+  "partTime": "Part-time",
+  "jobsFound": "Jobs found",
+  "activelyHiring": "Actively Hiring",
+  "postedRecently": "Posted recently",
+  "viewDetails": "View Details",
+  "job": "Job"
+},
+
+  "detailedInternship": {
+    "activelyHiring": "Actively Hiring",
+    "postedOn": "Posted on",
+    "aboutCompany": "About {{company}}",
+    "visitCompanyWebsite": "Visit company website",
+    "aboutInternship": "About the Internship",
+    "whoCanApply": "Who can apply",
+    "perks": "Perks",
+    "additionalInformation": "Additional Information",
+    "numberOfOpenings": "Number of Openings",
+    "applyNow": "Apply Now",
+
+    "applyModal": {
+      "applyTo": "Apply to {{company}}",
+      "yourResume": "Your Resume",
+      "resumeWillBeSubmitted": "Your current resume will be submitted with the application",
+      "coverLetter": "Cover Letter",
+      "whyShouldSelect": "Why should you be selected for this internship?",
+      "writeCoverLetter": "Write your cover letter here...",
+      "yourAvailability": "Your Availability",
+      "availableImmediately": "Yes, I am available to join immediately",
+      "onNoticePeriod": "No, I am currently on notice period",
+      "willServeNotice": "No, I will have to serve notice period",
+      "other": "Other",
+      "submitApplication": "Submit Application",
+      "signupToApply": "Sign up to apply"
+    },
+
+    "toast": {
+      "pleaseWriteCoverLetter": "Please write a cover letter",
+      "pleaseSelectAvailability": "Please select your availability",
+      "applicationSubmitted": "Application submitted successfully",
+      "applicationFailed": "Failed to submit application"
+    }
+  },
+  
+  "detailedJob": {
+  "activelyHiring": "Actively Hiring",
+  "postedOn": "Posted on",
+  "aboutCompany": "About {{company}}",
+  "visitCompanyWebsite": "Visit company website",
+  "aboutJob": "About the Job",
+  "whoCanApply": "Who can apply",
+  "perks": "Perks",
+  "additionalInformation": "Additional Information",
+  "applyNow": "Apply Now",
+
+  "applyModal": {
+    "applyTo": "Apply to {{company}}",
+    "yourResume": "Your Resume",
+    "resumeWillBeSubmitted": "Your current resume will be submitted with the application",
+    "coverLetter": "Cover Letter",
+    "whyShouldSelect": "Why should you be selected for this job?",
+    "writeCoverLetter": "Write your cover letter here...",
+    "yourAvailability": "Your Availability",
+    "availableImmediately": "Yes, I am available to join immediately",
+    "onNoticePeriod": "No, I am currently on notice period",
+    "willServeNotice": "No, I will have to serve notice period",
+    "other": "Other",
+    "submitApplication": "Submit Application",
+    "signupToApply": "Sign up to apply"
+  },
+
+  "toast": {
+    "pleaseWriteCoverLetter": "Please write a cover letter",
+    "pleaseSelectAvailability": "Please select your availability",
+    "applicationSubmitted": "Application submitted successfully",
+    "applicationFailed": "Failed to submit application"
+  }
+},
+
+  "loginHistory": {
+    "title": "🔒 Login History",
+    "loading": "Loading...",
+    "browser": "Browser",
+    "os": "OS",
+    "device": "Device",
+    "ipAddress": "IP Address",
+    "loginTime": "Login Time",
+    "noHistory": "No login history found"
+  },
+  
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "subtitle": "Enter your registered email",
+    "emailPlaceholder": "you@example.com",
+    "sendLink": "Send Reset Link",
+    "rememberPassword": "Remember password?",
+    "login": "Login",
+    "limitWarning": "You can reset password for this email only once in 24 hours",
+    "resetEmailSent": "Password reset email sent",
+    "suggestedPassword": "Suggested password:"
+  },
+  
+  "profile": {
+  "activeApplications": "Active Applications",
+  "acceptedApplications": "Accepted Applications",
+  "viewApplications": "View Applications",
+  "viewResume": "View Resume"
+}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,414 @@
+{
+  "nav": {
+    "internships": "इंटर्नशिप",
+    "jobs": "नौकरियां",
+    "community": "समुदाय",
+    "resume": "रिज़्यूमे जनरेटर",
+    "subscription": "सब्सक्रिप्शन",
+    "search": "खोजें...",
+    "admin": "एडमिन",
+    "login": "लॉगिन",
+    "loginHistory": "लॉगिन इतिहास",
+    "logout": "लॉगआउट"
+  },
+
+  "hero": {
+    "title": "अपने सपनों के करियर को साकार करें",
+    "subtitle": "InternArea पर ट्रेंडिंग 🔥"
+  },
+  "categories": {
+    "popular": "लोकप्रिय श्रेणियां",
+    "bigBrands": "बड़ी कंपनियां",
+    "workFromHome": "घर से काम",
+    "partTime": "पार्ट-टाइम",
+    "mba": "एमबीए",
+    "engineering": "इंजीनियरिंग",
+    "media": "मीडिया",
+    "design": "डिज़ाइन",
+    "dataScience": "डेटा साइंस"
+  },
+  "internships": {
+    "heading": "Intern Area पर नवीनतम इंटर्नशिप",
+    "activelyHiring": "तुरंत भर्ती",
+    "viewDetails": "विवरण देखें",
+    "type": "इंटर्नशिप"
+  },
+  "jobs": {
+    "heading": "नवीनतम नौकरियां",
+    "activelyHiring": "तुरंत भर्ती",
+    "viewDetails": "विवरण देखें",
+    "type": "नौकरी"
+  },
+  "stats": {
+    "companies": "कंपनियां भर्ती कर रही हैं",
+    "openings": "हर दिन नए अवसर",
+    "students": "सक्रिय छात्र",
+    "learners": "सीखने वाले"
+  },
+  "slider": {
+  "slide1": "अपने करियर की यात्रा शुरू करें",
+  "slide2": "सर्वश्रेष्ठ से सीखें",
+  "slide3": "अपने कौशल को बढ़ाएं",
+  "slide4": "शीर्ष कंपनियों से जुड़ें"
+},
+
+  "footer": {
+    "internshipByPlaces": "स्थान के अनुसार इंटर्नशिप",
+    "internshipByStream": "स्ट्रीम के अनुसार इंटर्नशिप",
+    "jobPlaces": "स्थान के अनुसार नौकरियां",
+    "jobsByStreams": "स्ट्रीम के अनुसार नौकरियां",
+
+    "aboutUs": "हमारे बारे में",
+    "teamDiary": "टीम डायरी",
+    "terms": "नियम और शर्तें",
+    "sitemap": "साइटमैप",
+
+    "getAndroidApp": "एंड्रॉइड ऐप प्राप्त करें",
+    "copyright": "© कॉपीराइट 2025. सर्वाधिकार सुरक्षित।",
+
+    "places": ["न्यूयॉर्क", "लॉस एंजेलिस", "शिकागो", "सैन फ्रांसिस्को", "मियामी", "सिएटल"],
+    "company": ["हमारे बारे में", "करियर", "प्रेस", "समाचार", "मीडिया किट", "संपर्क"],
+    "resources": ["ब्लॉग", "न्यूज़लेटर", "इवेंट्स", "हेल्प सेंटर", "ट्यूटोरियल", "सपोर्ट"],
+    "industries": ["स्टार्टअप्स", "एंटरप्राइज", "सरकार", "SaaS", "मार्केटप्लेस", "ईकॉमर्स"],
+
+    "simple": ["स्टार्टअप्स", "एंटरप्राइज"],
+    "simpleOne": ["स्टार्टअप्स"]
+  },
+  "adminLogin": {
+    "title": "एडमिन लॉगिन",
+    "subtitle": "इंटर्नशिप और आवेदन प्रबंधित करने के लिए एडमिन डैशबोर्ड एक्सेस करें",
+    "username": "यूज़रनेम",
+    "password": "पासवर्ड",
+    "usernamePlaceholder": "अपना यूज़रनेम दर्ज करें",
+    "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+    "signIn": "साइन इन",
+    "signingIn": "साइन इन हो रहा है...",
+    "fillDetails": "कृपया सभी विवरण भरें",
+    "success": "सफलतापूर्वक लॉगिन हुआ",
+    "invalid": "अमान्य क्रेडेंशियल्स"
+  },
+
+  "userLogin": {
+  "welcome": "वापसी पर स्वागत है 👋",
+  "subtitle": "जारी रखने के लिए लॉगिन करें",
+  "email": "ईमेल",
+  "password": "पासवर्ड",
+  "emailPlaceholder": "you@example.com",
+  "passwordPlaceholder": "••••••••",
+  "forgotPassword": "पासवर्ड भूल गए?",
+  "login": "लॉगिन",
+  "loggingIn": "लॉगिन हो रहा है...",
+  "or": "या",
+  "continueGoogle": "Google से जारी रखें",
+  "noAccount": "क्या आपका खाता नहीं है?",
+  "signup": "साइन अप करें",
+  "loginSuccess": "सफलतापूर्वक लॉगिन हुआ",
+  "loginFailed": "लॉगिन विफल",
+  "googleSuccess": "Google से लॉगिन सफल",
+  "googleFailed": "Google लॉगिन विफल",
+  "otpSent": "OTP आपके ईमेल पर भेजा गया",
+  "mobileTimeRestriction": "मोबाइल एक्सेस केवल सुबह 10 से दोपहर 1 बजे तक",
+  "loginBlocked": "लॉगिन अवरुद्ध"
+},
+
+"signup": {
+  "title": "साइन अप",
+  "email": "ईमेल",
+  "password": "पासवर्ड",
+  "createAccount": "खाता बनाएं",
+  "creating": "बनाया जा रहा है...",
+  "or": "या",
+  "continueGoogle": "Google से जारी रखें",
+  "haveAccount": "क्या आपका पहले से खाता है?",
+  "login": "लॉगिन",
+  "success": "खाता सफलतापूर्वक बनाया गया",
+  "googleSuccess": "Google से साइन अप सफल",
+  "googleError": "Google साइनअप विफल"
+},
+
+  "otp": {
+    "title": "ओटीपी सत्यापित करें",
+    "placeholder": "ओटीपी दर्ज करें",
+    "verifyButton": "ओटीपी सत्यापित करें",
+    "verifying": "सत्यापित किया जा रहा है...",
+    "success": "ओटीपी सफलतापूर्वक सत्यापित हुआ",
+    "invalid": "अमान्य ओटीपी",
+    "sessionExpired": "सत्र समाप्त हो गया। कृपया फिर से लॉगिन करें।"
+  },
+  
+  "toast": {
+    "otpSent": "ओटीपी आपके ईमेल पर भेजा गया है",
+    "loginSuccess": "सफलतापूर्वक लॉगिन हुआ",
+    "googleLoginSuccess": "Google से लॉगिन सफल",
+    "signupSuccess": "खाता सफलतापूर्वक बनाया गया",
+    "googleSignupSuccess": "Google से साइनअप सफल",
+    "invalidCredentials": "अमान्य क्रेडेंशियल्स",
+    "loginFailed": "लॉगिन विफल",
+    "googleLoginFailed": "Google लॉगिन विफल",
+    "otpSuccess": "ओटीपी सफलतापूर्वक सत्यापित हुआ",
+    "otpInvalid": "अमान्य ओटीपी",
+    "sessionExpired": "सेशन समाप्त हो गया, कृपया फिर से लॉगिन करें",
+    "mobileRestricted": "मोबाइल एक्सेस केवल सुबह 10 से दोपहर 1 बजे तक अनुमति है"
+  },
+  
+  "subscription": {
+    "title": "अपने करियर को अपग्रेड करें 🚀",
+    "subtitle": "इंटर्नशिप और नौकरी के अवसरों को बढ़ाने के लिए सही प्लान चुनें।",
+    "limitReached": "आप अपनी आवेदन सीमा तक पहुँच चुके हैं। कृपया महीने के अंत तक प्रतीक्षा करें।",
+    "mostPopular": "सबसे लोकप्रिय",
+    "perMonth": "/महीना",
+    "currentPlan": "वर्तमान प्लान",
+    "upgrade": "अभी अपग्रेड करें",
+    "activeUntil": "{{date}} तक सक्रिय • {{days}} दिन शेष",
+
+    "features": {
+      "free1": "1 इंटर्नशिप के लिए आवेदन",
+      "free2": "बेसिक प्रोफाइल एक्सेस",
+
+      "bronze1": "3 इंटर्नशिप के लिए आवेदन",
+      "bronze2": "प्राथमिक प्रोफाइल दृश्यता",
+      "bronze3": "ईमेल सहायता",
+
+      "silver1": "5 इंटर्नशिप के लिए आवेदन",
+      "silver2": "प्रीमियम दृश्यता",
+      "silver3": "जल्दी अवसर एक्सेस",
+      "silver4": "प्राथमिक सहायता",
+
+      "gold1": "अनलिमिटेड आवेदन",
+      "gold2": "टॉप प्रोफाइल रैंकिंग",
+      "gold3": "समर्पित सहायता",
+      "gold4": "विशेष अवसर"
+    },
+
+    "toast": {
+      "freePlan": "आप पहले से ही फ्री प्लान पर हैं।",
+      "userNotLoaded": "यूज़र लोड नहीं हुआ। फिर से लॉगिन करें।",
+      "activePlan": "आपके पास पहले से सक्रिय प्लान है।",
+      "creatingOrder": "पेमेंट ऑर्डर बनाया जा रहा है...",
+      "gatewayFail": "पेमेंट गेटवे लोड नहीं हुआ।",
+      "verifying": "पेमेंट सत्यापित किया जा रहा है...",
+      "success": "🎉 सब्सक्रिप्शन सफलतापूर्वक सक्रिय!",
+      "verifyFail": "पेमेंट सत्यापन विफल।",
+      "cancelled": "पेमेंट रद्द किया गया।",
+      "genericError": "कुछ गलत हुआ। फिर प्रयास करें।"
+    }
+  },
+
+  "resume": {
+    "editTitle": "अपना रिज़्यूमे संपादित करें",
+    "createTitle": "अपना रिज़्यूमे बनाएं",
+    "editSubtitle": "आप कभी भी अपना रिज़्यूमे अपडेट कर सकते हैं",
+    "createSubtitle": "OTP सत्यापन और ₹50 भुगतान आवश्यक",
+
+    "fullName": "पूरा नाम",
+    "email": "ईमेल",
+    "phone": "फोन",
+    "qualification": "योग्यता",
+    "professional": "पेशेवर विवरण",
+    "skills": "कौशल",
+    "about": "अपने बारे में",
+    "uploadPhoto": "फोटो अपलोड करें",
+
+    "generateOtp": "रिज़्यूमे बनाएं (OTP)",
+    "enterOtp": "OTP दर्ज करें",
+    "verifyOtp": "OTP सत्यापित करें",
+    "payCreate": "₹50 भुगतान करें और रिज़्यूमे बनाएं",
+    "saveChanges": "परिवर्तन सहेजें",
+
+    "otpSent": "OTP आपके ईमेल पर भेजा गया 📧",
+    "otpFailed": "OTP भेजने में विफल",
+    "otpVerifyFailed": "OTP सत्यापन विफल",
+    "emailVerified": "ईमेल सफलतापूर्वक सत्यापित ✅",
+
+    "userNotLogged": "उपयोगकर्ता लॉगिन नहीं है",
+    "resumeCreated": "रिज़्यूमे सफलतापूर्वक बना 🎉",
+    "resumeUpdated": "रिज़्यूमे सफलतापूर्वक अपडेट हुआ ✅",
+
+    "paymentInitFailed": "भुगतान प्रारंभ विफल",
+    "paymentSuccess": "भुगतान सफल ✅",
+    "paymentVerifyFailed": "भुगतान सत्यापन विफल"
+  },
+  "resumeView": {
+  "loading": "रिज़्यूमे लोड हो रहा है...",
+  "loadFailed": "रिज़्यूमे लोड नहीं हो सका",
+  "qualification": "योग्यता",
+  "skills": "कौशल",
+  "about": "अपने बारे में",
+  "professional": "पेशेवर विवरण",
+  "saveProfile": "प्रोफ़ाइल में सेव करें",
+  "autoAttach": "आवेदन में स्वतः जोड़ें",
+  "savedProfile": "रिज़्यूमे प्रोफ़ाइल में सेव हो गया ✅",
+  "saveFailed": "रिज़्यूमे सेव नहीं हो सका",
+  "autoAttachSuccess": "रिज़्यूमे अब स्वतः आवेदन में जुड़ जाएगा 🚀",
+  "autoAttachFailed": "ऑटो-अटैच सक्षम नहीं हुआ"
+},
+
+  "admin": {
+    "dashboard": "एडमिन डैशबोर्ड",
+    "subtitle": "नौकरियां, इंटर्नशिप और आवेदन प्रबंधित करें",
+
+    "stats": {
+      "totalApplications": "कुल आवेदन",
+      "activeJobs": "सक्रिय नौकरियां",
+      "activeInternships": "सक्रिय इंटर्नशिप",
+      "conversionRate": "कन्वर्ज़न दर"
+    },
+
+    "menu": {
+      "viewApplications": "आवेदन देखें",
+      "viewApplicationsDesc": "उम्मीदवारों के सभी आवेदन देखें और प्रबंधित करें",
+
+      "postJob": "नौकरी पोस्ट करें",
+      "postJobDesc": "नई नौकरी के अवसर बनाएं और प्रकाशित करें",
+
+      "postInternship": "इंटर्नशिप पोस्ट करें",
+      "postInternshipDesc": "इंटर्नशिप पदों को बनाएं और प्रबंधित करें",
+
+      "manageUsers": "उपयोगकर्ता प्रबंधित करें",
+      "manageUsersDesc": "यूज़र अकाउंट देखें और प्रबंधित करें",
+
+      "analytics": "एनालिटिक्स",
+      "analyticsDesc": "विस्तृत रिपोर्ट और आँकड़े देखें",
+
+      "settings": "सेटिंग्स",
+      "settingsDesc": "सिस्टम प्राथमिकताएँ कॉन्फ़िगर करें"
+    }
+  },
+  "internshipPage": {
+  "filters": "फ़िल्टर",
+  "clearAll": "सभी साफ करें",
+  "category": "श्रेणी",
+  "location": "स्थान",
+  "categoryPlaceholder": "जैसे मार्केटिंग इंटर्न",
+  "locationPlaceholder": "जैसे मुंबई",
+  "workFromHome": "वर्क फ्रॉम होम",
+  "partTime": "पार्ट-टाइम",
+  "stipend": "मासिक स्टाइपेंड (₹)",
+  "showFilters": "फ़िल्टर दिखाएँ",
+  "results": "इंटर्नशिप मिली",
+  "activelyHiring": "सक्रिय भर्ती",
+  "startDate": "प्रारंभ तिथि",
+  "posted": "हाल ही में पोस्ट किया गया",
+  "viewDetails": "विवरण देखें",
+  "type": "इंटर्नशिप"
+},
+"jobPage": {
+  "filters": "फ़िल्टर",
+  "clearAll": "सभी साफ करें",
+  "category": "श्रेणी",
+  "location": "स्थान",
+  "experience": "अनुभव",
+  "salary": "वार्षिक वेतन (₹)",
+  "categoryPlaceholder": "जैसे मार्केटिंग",
+  "locationPlaceholder": "जैसे मुंबई",
+  "experiencePlaceholder": "जैसे 2 वर्ष",
+  "workFromHome": "घर से काम",
+  "partTime": "पार्ट-टाइम",
+  "jobsFound": "नौकरियां मिलीं",
+  "activelyHiring": "सक्रिय भर्ती",
+  "postedRecently": "हाल ही में पोस्ट किया गया",
+  "viewDetails": "विवरण देखें",
+  "job": "नौकरी"
+},
+
+  "detailedInternship": {
+    "activelyHiring": "सक्रिय रूप से भर्ती चल रही है",
+    "postedOn": "पोस्ट किया गया",
+    "aboutCompany": "{{company}} के बारे में",
+    "visitCompanyWebsite": "कंपनी की वेबसाइट देखें",
+    "aboutInternship": "इंटर्नशिप के बारे में",
+    "whoCanApply": "कौन आवेदन कर सकता है",
+    "perks": "सुविधाएँ",
+    "additionalInformation": "अतिरिक्त जानकारी",
+    "numberOfOpenings": "खाली पदों की संख्या",
+    "applyNow": "अभी आवेदन करें",
+
+    "applyModal": {
+      "applyTo": "{{company}} में आवेदन करें",
+      "yourResume": "आपका रिज़्यूमे",
+      "resumeWillBeSubmitted": "आपका वर्तमान रिज़्यूमे आवेदन के साथ भेजा जाएगा",
+      "coverLetter": "कवर लेटर",
+      "whyShouldSelect": "आपको इस इंटर्नशिप के लिए क्यों चुना जाए?",
+      "writeCoverLetter": "यहाँ अपना कवर लेटर लिखें...",
+      "yourAvailability": "आपकी उपलब्धता",
+      "availableImmediately": "हाँ, मैं तुरंत जॉइन कर सकता/सकती हूँ",
+      "onNoticePeriod": "नहीं, मैं अभी नोटिस पीरियड पर हूँ",
+      "willServeNotice": "नहीं, मुझे नोटिस पीरियड पूरा करना होगा",
+      "other": "अन्य",
+      "submitApplication": "आवेदन जमा करें",
+      "signupToApply": "आवेदन करने के लिए साइन अप करें"
+    },
+
+    "toast": {
+      "pleaseWriteCoverLetter": "कृपया कवर लेटर लिखें",
+      "pleaseSelectAvailability": "कृपया अपनी उपलब्धता चुनें",
+      "applicationSubmitted": "आवेदन सफलतापूर्वक जमा हुआ",
+      "applicationFailed": "आवेदन जमा करने में विफल"
+    }
+  },
+  
+  "detailedJob": {
+  "activelyHiring": "सक्रिय रूप से भर्ती",
+  "postedOn": "पोस्ट किया गया",
+  "aboutCompany": "{{company}} के बारे में",
+  "visitCompanyWebsite": "कंपनी वेबसाइट देखें",
+  "aboutJob": "नौकरी के बारे में",
+  "whoCanApply": "कौन आवेदन कर सकता है",
+  "perks": "लाभ",
+  "additionalInformation": "अतिरिक्त जानकारी",
+  "applyNow": "अभी आवेदन करें",
+
+  "applyModal": {
+    "applyTo": "{{company}} में आवेदन करें",
+    "yourResume": "आपका रिज़्यूमे",
+    "resumeWillBeSubmitted": "आपका वर्तमान रिज़्यूमे आवेदन के साथ जमा किया जाएगा",
+    "coverLetter": "कवर लेटर",
+    "whyShouldSelect": "आपको इस नौकरी के लिए क्यों चुना जाना चाहिए?",
+    "writeCoverLetter": "यहाँ अपना कवर लेटर लिखें...",
+    "yourAvailability": "आपकी उपलब्धता",
+    "availableImmediately": "हाँ, मैं तुरंत जॉइन कर सकता/सकती हूँ",
+    "onNoticePeriod": "नहीं, मैं वर्तमान में नोटिस पीरियड पर हूँ",
+    "willServeNotice": "नहीं, मुझे नोटिस पीरियड पूरा करना होगा",
+    "other": "अन्य",
+    "submitApplication": "आवेदन जमा करें",
+    "signupToApply": "आवेदन करने के लिए साइन अप करें"
+  },
+
+  "toast": {
+    "pleaseWriteCoverLetter": "कृपया कवर लेटर लिखें",
+    "pleaseSelectAvailability": "कृपया अपनी उपलब्धता चुनें",
+    "applicationSubmitted": "आवेदन सफलतापूर्वक जमा हुआ",
+    "applicationFailed": "आवेदन जमा करने में विफल"
+  }
+},
+
+  "loginHistory": {
+    "title": "🔒 लॉगिन इतिहास",
+    "loading": "लोड हो रहा है...",
+    "browser": "ब्राउज़र",
+    "os": "ऑपरेटिंग सिस्टम",
+    "device": "डिवाइस",
+    "ipAddress": "आईपी पता",
+    "loginTime": "लॉगिन समय",
+    "noHistory": "कोई लॉगिन इतिहास नहीं मिला"
+  },
+  
+  "forgotPassword": {
+    "title": "पासवर्ड भूल गए",
+    "subtitle": "अपना पंजीकृत ईमेल दर्ज करें",
+    "emailPlaceholder": "you@example.com",
+    "sendLink": "रीसेट लिंक भेजें",
+    "rememberPassword": "पासवर्ड याद है?",
+    "login": "लॉगिन",
+    "limitWarning": "इस ईमेल के लिए 24 घंटे में केवल एक बार पासवर्ड रीसेट कर सकते हैं",
+    "resetEmailSent": "पासवर्ड रीसेट ईमेल भेजा गया",
+    "suggestedPassword": "सुझाया गया पासवर्ड:"
+  },
+  
+  "profile": {
+  "activeApplications": "सक्रिय आवेदन",
+  "acceptedApplications": "स्वीकृत आवेदन",
+  "viewApplications": "आवेदन देखें",
+  "viewResume": "रिज़्यूमे देखें"
+}
+}

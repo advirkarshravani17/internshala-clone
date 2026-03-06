@@ -1,10 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+const initialState = {
+  user: null,
+};
+
 export const userslice = createSlice({
   name: "user",
-  initialState: {
-    value: null,
-  },
+  initialState,
   reducers: {
     login: (state, action) => {
       state.user = action.payload;
@@ -14,6 +16,10 @@ export const userslice = createSlice({
     },
   },
 });
+
 export const { login, logout } = userslice.actions;
+
+// ✅ selector MUST match state shape
 export const selectuser = (state) => state.user.user;
+
 export default userslice.reducer;

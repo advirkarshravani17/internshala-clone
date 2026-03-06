@@ -1,0 +1,415 @@
+{
+  "nav": {
+    "internships": "Estágios",
+    "jobs": "Empregos",
+    "community": "Comunidade",
+    "resume": "Gerador de Currículo",
+    "subscription": "Assinatura",
+    "search": "Pesquisar...",
+    "admin": "Admin",
+    "login": "Entrar",
+    "loginHistory": "Histórico de login",
+    "logout": "Sair"
+  },
+
+  "hero": {
+    "title": "Transforme a carreira dos seus sonhos em realidade",
+    "subtitle": "Tendências no InternArea 🔥"
+  },
+  "categories": {
+    "popular": "CATEGORIAS POPULARES",
+    "bigBrands": "Grandes Marcas",
+    "workFromHome": "Trabalho remoto",
+    "partTime": "Meio período",
+    "mba": "MBA",
+    "engineering": "Engenharia",
+    "media": "Mídia",
+    "design": "Design",
+    "dataScience": "Ciência de Dados"
+  },
+  "internships": {
+    "heading": "Últimos estágios no Intern Area",
+    "activelyHiring": "Contratação ativa",
+    "viewDetails": "Ver detalhes",
+    "type": "Estágio"
+  },
+  "jobs": {
+    "heading": "Últimos empregos",
+    "activelyHiring": "Contratação ativa",
+    "viewDetails": "Ver detalhes",
+    "type": "Emprego"
+  },
+  "stats": {
+    "companies": "empresas contratando",
+    "openings": "novas vagas todos os dias",
+    "students": "estudantes ativos",
+    "learners": "aprendizes"
+  },
+"slider": {
+  "slide1": "Comece sua jornada profissional",
+  "slide2": "Aprenda com os melhores",
+  "slide3": "Desenvolva suas habilidades",
+  "slide4": "Conecte-se com as melhores empresas"
+},
+
+  "footer": {
+    "internshipByPlaces": "Estágios por localização",
+    "internshipByStream": "Estágios por área",
+    "jobPlaces": "Empregos por localização",
+    "jobsByStreams": "Empregos por setor",
+
+    "aboutUs": "Sobre nós",
+    "teamDiary": "Diário da equipe",
+    "terms": "Termos e condições",
+    "sitemap": "Mapa do site",
+
+    "getAndroidApp": "Baixar aplicativo Android",
+    "copyright": "© Copyright 2025. Todos os direitos reservados.",
+
+    "places": ["Nova York", "Los Angeles", "Chicago", "San Francisco", "Miami", "Seattle"],
+    "company": ["Sobre nós", "Carreiras", "Imprensa", "Notícias", "Kit de mídia", "Contato"],
+    "resources": ["Blog", "Newsletter", "Eventos", "Central de ajuda", "Tutoriais", "Suporte"],
+    "industries": ["Startups", "Empresas", "Governo", "SaaS", "Marketplaces", "E-commerce"],
+
+    "simple": ["Startups", "Empresas"],
+    "simpleOne": ["Startups"]
+  },
+  
+  "adminLogin": {
+    "title": "Connexion Admin",
+    "subtitle": "Accédez au tableau de bord admin pour gérer les stages et candidatures",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "usernamePlaceholder": "Entrez votre nom d'utilisateur",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "signIn": "Se connecter",
+    "signingIn": "Connexion en cours...",
+    "fillDetails": "Veuillez remplir tous les détails",
+    "success": "Connexion réussie",
+    "invalid": "Identifiants invalides"
+  },
+
+  "userLogin": {
+  "welcome": "Bem-vindo de volta 👋",
+  "subtitle": "Faça login para continuar",
+  "email": "Email",
+  "password": "Senha",
+  "emailPlaceholder": "you@example.com",
+  "passwordPlaceholder": "••••••••",
+  "forgotPassword": "Esqueceu a senha?",
+  "login": "Entrar",
+  "loggingIn": "Entrando...",
+  "or": "OU",
+  "continueGoogle": "Continuar com Google",
+  "noAccount": "Não tem uma conta?",
+  "signup": "Cadastrar-se",
+  "loginSuccess": "Login realizado com sucesso",
+  "loginFailed": "Falha no login",
+  "googleSuccess": "Login com Google realizado",
+  "googleFailed": "Falha no login com Google",
+  "otpSent": "OTP enviado para seu email",
+  "mobileTimeRestriction": "Acesso móvel permitido apenas entre 10h e 13h",
+  "loginBlocked": "Login bloqueado"
+},
+
+"signup": {
+  "title": "Cadastrar-se",
+  "email": "Email",
+  "password": "Senha",
+  "createAccount": "Criar conta",
+  "creating": "Criando...",
+  "or": "OU",
+  "continueGoogle": "Continuar com Google",
+  "haveAccount": "Já tem uma conta?",
+  "login": "Entrar",
+  "success": "Conta criada com sucesso",
+  "googleSuccess": "Cadastro com Google realizado",
+  "googleError": "Falha no cadastro Google"
+},
+
+  "otp": {
+    "title": "Verificar OTP",
+    "placeholder": "Digite o OTP",
+    "verifyButton": "Verificar OTP",
+    "verifying": "Verificando...",
+    "success": "OTP verificado com sucesso",
+    "invalid": "OTP inválido",
+    "sessionExpired": "Sessão expirada. Faça login novamente."
+  },
+  
+  "toast": {
+    "otpSent": "OTP enviado para seu email",
+    "loginSuccess": "Login realizado com sucesso",
+    "googleLoginSuccess": "Login com Google realizado",
+    "signupSuccess": "Conta criada com sucesso",
+    "googleSignupSuccess": "Cadastro com Google realizado",
+    "invalidCredentials": "Credenciais inválidas",
+    "loginFailed": "Falha no login",
+    "googleLoginFailed": "Falha no login com Google",
+    "otpSuccess": "OTP verificado com sucesso",
+    "otpInvalid": "OTP inválido",
+    "sessionExpired": "Sessão expirada. Faça login novamente.",
+    "mobileRestricted": "Acesso móvel permitido apenas entre 10h e 13h"
+  },
+
+  "subscription": {
+    "title": "Impulsione sua carreira 🚀",
+    "subtitle": "Escolha o plano perfeito para maximizar oportunidades.",
+    "limitReached": "Você atingiu o limite de candidaturas.",
+    "mostPopular": "Mais Popular",
+    "perMonth": "/mês",
+    "currentPlan": "Plano Atual",
+    "upgrade": "Atualizar Agora",
+    "activeUntil": "Ativo até {{date}} • {{days}} dias restantes",
+
+    "features": {
+      "free1": "Candidatar-se a 1 estágio",
+      "free2": "Acesso básico ao perfil",
+
+      "bronze1": "Candidatar-se a 3 estágios",
+      "bronze2": "Maior visibilidade",
+      "bronze3": "Suporte por email",
+
+      "silver1": "Candidatar-se a 5 estágios",
+      "silver2": "Visibilidade premium",
+      "silver3": "Acesso antecipado",
+      "silver4": "Suporte prioritário",
+
+      "gold1": "Candidaturas ilimitadas",
+      "gold2": "Ranking superior",
+      "gold3": "Suporte dedicado",
+      "gold4": "Oportunidades exclusivas"
+    },
+
+    "toast": {
+      "freePlan": "Você já está no plano gratuito.",
+      "userNotLoaded": "Usuário não carregado.",
+      "activePlan": "Você já possui um plano ativo.",
+      "creatingOrder": "Criando pagamento...",
+      "gatewayFail": "Falha no pagamento.",
+      "verifying": "Verificando pagamento...",
+      "success": "🎉 Assinatura ativada!",
+      "verifyFail": "Falha na verificação.",
+      "cancelled": "Pagamento cancelado.",
+      "genericError": "Algo deu errado."
+    }
+  },
+
+  "resume": {
+    "editTitle": "Editar seu currículo",
+    "createTitle": "Criar seu currículo",
+    "editSubtitle": "Você pode atualizar seu currículo a qualquer momento",
+    "createSubtitle": "Verificação OTP e pagamento de ₹50 necessários",
+
+    "fullName": "Nome completo",
+    "email": "Email",
+    "phone": "Telefone",
+    "qualification": "Qualificação",
+    "professional": "Detalhes profissionais",
+    "skills": "Habilidades",
+    "about": "Sobre você",
+    "uploadPhoto": "Enviar foto",
+
+    "generateOtp": "Gerar currículo (OTP)",
+    "enterOtp": "Inserir OTP",
+    "verifyOtp": "Verificar OTP",
+    "payCreate": "Pagar ₹50 e criar currículo",
+    "saveChanges": "Salvar alterações",
+
+    "otpSent": "OTP enviado para seu email 📧",
+    "otpFailed": "Falha ao enviar OTP",
+    "otpVerifyFailed": "Falha na verificação OTP",
+    "emailVerified": "Email verificado com sucesso ✅",
+
+    "userNotLogged": "Usuário não conectado",
+    "resumeCreated": "Currículo criado com sucesso 🎉",
+    "resumeUpdated": "Currículo atualizado com sucesso ✅",
+
+    "paymentInitFailed": "Falha ao iniciar pagamento",
+    "paymentSuccess": "Pagamento realizado com sucesso ✅",
+    "paymentVerifyFailed": "Falha na verificação do pagamento"
+  },
+  "resumeView": {
+  "loading": "Carregando currículo...",
+  "loadFailed": "Falha ao carregar currículo",
+  "qualification": "Qualificação",
+  "skills": "Habilidades",
+  "about": "Sobre",
+  "professional": "Detalhes profissionais",
+  "saveProfile": "Salvar no perfil",
+  "autoAttach": "Adicionar automaticamente às candidaturas",
+  "savedProfile": "Currículo salvo no perfil ✅",
+  "saveFailed": "Falha ao salvar currículo",
+  "autoAttachSuccess": "O currículo será adicionado automaticamente 🚀",
+  "autoAttachFailed": "Falha ao ativar auto-adicionar"
+},
+
+  "admin": {
+    "dashboard": "Painel Administrativo",
+    "subtitle": "Gerencie empregos, estágios e candidaturas",
+
+    "stats": {
+      "totalApplications": "Total de Candidaturas",
+      "activeJobs": "Empregos Ativos",
+      "activeInternships": "Estágios Ativos",
+      "conversionRate": "Taxa de Conversão"
+    },
+
+    "menu": {
+      "viewApplications": "Ver Candidaturas",
+      "viewApplicationsDesc": "Gerenciar todas as candidaturas",
+
+      "postJob": "Publicar Emprego",
+      "postJobDesc": "Criar novas oportunidades",
+
+      "postInternship": "Publicar Estágio",
+      "postInternshipDesc": "Gerenciar estágios",
+
+      "manageUsers": "Gerenciar Usuários",
+      "manageUsersDesc": "Administrar contas",
+
+      "analytics": "Análises",
+      "analyticsDesc": "Ver relatórios e estatísticas",
+
+      "settings": "Configurações",
+      "settingsDesc": "Configurar preferências"
+    }
+  },
+  "internshipPage": {
+  "filters": "Filtros",
+  "clearAll": "Limpar tudo",
+  "category": "Categoria",
+  "location": "Localização",
+  "categoryPlaceholder": "ex. Estágio em Marketing",
+  "locationPlaceholder": "ex. Mumbai",
+  "workFromHome": "Trabalho remoto",
+  "partTime": "Meio período",
+  "stipend": "Bolsa mensal (₹)",
+  "showFilters": "Mostrar filtros",
+  "results": "Estágios encontrados",
+  "activelyHiring": "Contratando ativamente",
+  "startDate": "Data de início",
+  "posted": "Publicado recentemente",
+  "viewDetails": "Ver detalhes",
+  "type": "Estágio"
+},
+"jobPage": {
+  "filters": "Filtros",
+  "clearAll": "Limpar tudo",
+  "category": "Categoria",
+  "location": "Localização",
+  "experience": "Experiência",
+  "salary": "Salário anual (₹)",
+  "categoryPlaceholder": "ex: Marketing",
+  "locationPlaceholder": "ex: Mumbai",
+  "experiencePlaceholder": "ex: 2 anos",
+  "workFromHome": "Trabalho remoto",
+  "partTime": "Meio período",
+  "jobsFound": "Vagas encontradas",
+  "activelyHiring": "Contratando",
+  "postedRecently": "Publicado recentemente",
+  "viewDetails": "Ver detalhes",
+  "job": "Emprego"
+},
+
+  "detailedInternship": {
+    "activelyHiring": "Contratação ativa",
+    "postedOn": "Publicado em",
+    "aboutCompany": "Sobre {{company}}",
+    "visitCompanyWebsite": "Visitar site da empresa",
+    "aboutInternship": "Sobre o estágio",
+    "whoCanApply": "Quem pode se candidatar",
+    "perks": "Benefícios",
+    "additionalInformation": "Informações adicionais",
+    "numberOfOpenings": "Número de vagas",
+    "applyNow": "Candidatar-se agora",
+
+    "applyModal": {
+      "applyTo": "Candidatar-se à {{company}}",
+      "yourResume": "Seu currículo",
+      "resumeWillBeSubmitted": "Seu currículo atual será enviado com a candidatura",
+      "coverLetter": "Carta de apresentação",
+      "whyShouldSelect": "Por que você deve ser selecionado?",
+      "writeCoverLetter": "Escreva sua carta aqui...",
+      "yourAvailability": "Sua disponibilidade",
+      "availableImmediately": "Sim, posso começar imediatamente",
+      "onNoticePeriod": "Não, estou em período de aviso",
+      "willServeNotice": "Não, preciso cumprir aviso prévio",
+      "other": "Outro",
+      "submitApplication": "Enviar candidatura",
+      "signupToApply": "Cadastre-se para aplicar"
+    },
+
+    "toast": {
+      "pleaseWriteCoverLetter": "Por favor escreva uma carta de apresentação",
+      "pleaseSelectAvailability": "Por favor selecione sua disponibilidade",
+      "applicationSubmitted": "Candidatura enviada com sucesso",
+      "applicationFailed": "Falha ao enviar candidatura"
+    }
+  },
+  
+  "detailedJob": {
+  "activelyHiring": "Contratação ativa",
+  "postedOn": "Publicado em",
+  "aboutCompany": "Sobre {{company}}",
+  "visitCompanyWebsite": "Visitar site da empresa",
+  "aboutJob": "Sobre o trabalho",
+  "whoCanApply": "Quem pode se candidatar",
+  "perks": "Benefícios",
+  "additionalInformation": "Informações adicionais",
+  "applyNow": "Candidatar-se agora",
+
+  "applyModal": {
+    "applyTo": "Candidatar-se à {{company}}",
+    "yourResume": "Seu currículo",
+    "resumeWillBeSubmitted": "Seu currículo atual será enviado com a candidatura",
+    "coverLetter": "Carta de apresentação",
+    "whyShouldSelect": "Por que devemos selecioná-lo para este trabalho?",
+    "writeCoverLetter": "Escreva sua carta aqui...",
+    "yourAvailability": "Sua disponibilidade",
+    "availableImmediately": "Sim, posso começar imediatamente",
+    "onNoticePeriod": "Não, estou em período de aviso",
+    "willServeNotice": "Não, precisarei cumprir aviso prévio",
+    "other": "Outro",
+    "submitApplication": "Enviar candidatura",
+    "signupToApply": "Cadastre-se para se candidatar"
+  },
+
+  "toast": {
+    "pleaseWriteCoverLetter": "Por favor escreva uma carta de apresentação",
+    "pleaseSelectAvailability": "Por favor selecione sua disponibilidade",
+    "applicationSubmitted": "Candidatura enviada com sucesso",
+    "applicationFailed": "Falha ao enviar candidatura"
+  }
+},
+
+  "loginHistory": {
+    "title": "🔒 Histórico de login",
+    "loading": "Carregando...",
+    "browser": "Navegador",
+    "os": "Sistema operacional",
+    "device": "Dispositivo",
+    "ipAddress": "Endereço IP",
+    "loginTime": "Hora do login",
+    "noHistory": "Nenhum histórico de login encontrado"
+  },
+  
+  "forgotPassword": {
+    "title": "Esqueceu a senha",
+    "subtitle": "Digite seu e-mail registrado",
+    "emailPlaceholder": "you@example.com",
+    "sendLink": "Enviar link de redefinição",
+    "rememberPassword": "Lembra da senha?",
+    "login": "Entrar",
+    "limitWarning": "Você pode redefinir a senha apenas uma vez a cada 24 horas",
+    "resetEmailSent": "E-mail de redefinição enviado",
+    "suggestedPassword": "Senha sugerida:"
+  },
+
+  "profile": {
+  "activeApplications": "Candidaturas ativas",
+  "acceptedApplications": "Candidaturas aceitas",
+  "viewApplications": "Ver candidaturas",
+  "viewResume": "Ver currículo"
+}
+}
