@@ -1,18 +1,14 @@
-const nodemailer = require("nodemailer");
-const transporter = nodemailer.createTransport({
-  service: "gmail",
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
-  },
-});
+const { Resend } = require("resend");
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const sentOtpMail = async (to, otp, purpose = "login") => {
   let subject = "OTP Verification";
   let html = "";
 
   switch (purpose) {
-    // ✅ LOGIN OTP (UNCHANGED)
+
+    // ✅ LOGIN OTP
     case "login":
       subject = "Login OTP Verification";
       html = `
@@ -24,7 +20,7 @@ const sentOtpMail = async (to, otp, purpose = "login") => {
       `;
       break;
 
-    // ✅ RESUME OTP (UNCHANGED)
+    // ✅ RESUME OTP
     case "resume":
       subject = "Resume Generation OTP";
       html = `
@@ -35,18 +31,18 @@ const sentOtpMail = async (to, otp, purpose = "login") => {
       `;
       break;
 
-    // 🇫🇷 NEW — FRENCH LANGUAGE UNLOCK OTP
+    // 🇫🇷 FRENCH LANGUAGE OTP
     case "french":
-  subject = "French Language Activation OTP";
-  html = `
-    <h2>French Language Activation</h2>
-    <p>Use the OTP below to enable French language:</p>
-    <h1>${otp}</h1>
-    <p>This OTP is valid for 5 minutes.</p>
-  `;
-  break;
-  
-    // ✅ SUBSCRIPTION (UNCHANGED)
+      subject = "French Language Activation OTP";
+      html = `
+        <h2>French Language Activation</h2>
+        <p>Use the OTP below to enable French language:</p>
+        <h1>${otp}</h1>
+        <p>This OTP is valid for 5 minutes.</p>
+      `;
+      break;
+
+    // ✅ SUBSCRIPTION
     case "subscription":
       subject = "Subscription Activated 🎉";
       html = `
@@ -71,11 +67,11 @@ const sentOtpMail = async (to, otp, purpose = "login") => {
       `;
   }
 
-  await transporter.sendMail({
-    from: `"Intern App" <${process.env.EMAIL_USER}>`,
-    to,
-    subject,
-    html,
+  await resend.emails.send({
+    from: "Intern App <onboarding@resend.dev>",
+    to: to,
+    subject: subject,
+    html: html,
   });
 };
 
