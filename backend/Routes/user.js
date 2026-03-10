@@ -78,7 +78,7 @@ router.post("/sync", async (req, res) => {
         ipAddress,
       });
 
-      await sendOtpMail(email, otp);
+      await sentOtpMail(email, otp);
 
       await LoginHistory.create({
         userId: user._id,

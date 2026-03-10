@@ -99,6 +99,7 @@ const Login = () => {
       toast.success(t("userLogin.loginSuccess"));
       router.push("/");
     } catch (error: any) {
+      await auth.signOut(); // 🔴 FORCE LOGOUT IF ANY ERROR
       toast.error(error.message || t("userLogin.loginFailed"));
     } finally {
       setLoading(false);
