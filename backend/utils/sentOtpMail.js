@@ -1,78 +1,82 @@
-const { Resend } = require("resend");
+const axios = require("axios");
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const SERVICE_ID = process.env.EMAILJS_SERVICE_ID;
+const PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY;
+const PRIVATE_KEY = process.env.EMAILJS_PRIVATE_KEY;
+
+const TEMPLATE_ID = "template_da6d7y9"; // your EmailJS template id
 
 const sentOtpMail = async (to, otp, purpose = "login") => {
+
   let subject = "OTP Verification";
-  let html = "";
+  let title = "Verification";
+  let message = "";
+  let footer = "";
+  let otpValue = otp; // default
 
   switch (purpose) {
 
     // ✅ LOGIN OTP
     case "login":
       subject = "Login OTP Verification";
-      html = `
-        <h2>Login Verification</h2>
-        <p>Your login OTP is:</p>
-        <h1>${otp}</h1>
-        <p>This OTP is valid for 5 minutes.</p>
-        <p>If you did not try to log in, please ignore this email.</p>
-      `;
+      title = "Login Verification";
+      message = "Your login OTP is:";
+      footer = "If you did not try to log in, please ignore this email.";
       break;
 
     // ✅ RESUME OTP
     case "resume":
       subject = "Resume Generation OTP";
-      html = `
-        <h2>Resume Verification</h2>
-        <p>Use the OTP below to verify resume generation:</p>
-        <h1>${otp}</h1>
-        <p>This OTP is valid for 5 minutes.</p>
-      `;
+      title = "Resume Verification";
+      message = "Use the OTP below to verify resume generation:";
+      footer = "This OTP is valid for 5 minutes.";
       break;
 
-    // 🇫🇷 FRENCH LANGUAGE OTP
+    // 🇫🇷 FRENCH LANGUAGE
     case "french":
       subject = "French Language Activation OTP";
-      html = `
-        <h2>French Language Activation</h2>
-        <p>Use the OTP below to enable French language:</p>
-        <h1>${otp}</h1>
-        <p>This OTP is valid for 5 minutes.</p>
-      `;
+      title = "French Language Activation";
+      message = "Use the OTP below to enable French language:";
+      footer = "This OTP is valid for 5 minutes.";
       break;
 
-    // ✅ SUBSCRIPTION
+    // ✅ SUBSCRIPTION (NO OTP)
     case "subscription":
       subject = "Subscription Activated 🎉";
-      html = `
-        <h2>Subscription Activated Successfully</h2>
-        <p>Your plan has been upgraded successfully.</p>
-
-        <h3>${otp}</h3>
-
-        <p>You can now enjoy premium benefits on <b>InternArea</b>.</p>
-        <p>Your subscription is valid for 1 month.</p>
-
-        <br/>
-        <p>Thank you for choosing InternArea 🚀</p>
-      `;
+      title = "Subscription Activated Successfully";
+      message = "Your plan has been upgraded successfully.";
+      footer = "You can now enjoy premium benefits on InternArea. Your subscription is valid for 1 month. Thank you for choosing InternArea 🚀";
+      otpValue = ""; // no OTP
       break;
 
     // DEFAULT
     default:
-      html = `
-        <p>Your OTP is:</p>
-        <h1>${otp}</h1>
-      `;
+      message = "Your OTP is:";
+      footer = "This OTP is valid for 5 minutes.";
   }
 
-  await resend.emails.send({
-    from: "Intern App <onboarding@resend.dev>",
-    to: to,
-    subject: subject,
-    html: html,
-  });
+  try {
+    await axios.post("https://api.emailjs.com/api/v1.0/email/send", {
+      service_id: SERVICE_ID,
+      template_id: TEMPLATE_ID,
+      user_id: PUBLIC_KEY,
+      accessToken: PRIVATE_KEY,
+      template_params: {
+        email: to,
+        subject,
+        title,
+        message,
+        footer,
+        otp: otpValue
+      }
+    });
+
+    console.log("Email sent successfully to:", to);
+
+  } catch (error) {
+    console.error("Email sending failed:", error.response?.data || error);
+    throw error;
+  }
 };
 
 module.exports = sentOtpMail;
